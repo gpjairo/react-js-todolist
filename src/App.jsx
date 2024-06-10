@@ -16,7 +16,6 @@ function App() {
    * @param array todos 
    */
   function persistTodos(todos) {
-    asdf
     localStorage.setItem('todos', JSON.stringify(todos))
   }
 
